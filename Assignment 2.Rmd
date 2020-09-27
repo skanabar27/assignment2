@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
-This paper examined how urbanization has affected the salinity of watersheds in the Halifax region. The lakes face an increased risk of salinization as road salt applied in urban areas during the wintertime to improve road safety has been demonstrated to increase chloride concentrations in nearby water bodies. Increased salinity occurs when chloride contaminates the water through runoff. This can create toxic conditions that negatively impact freshwater aquatic organisms, prolonged anoxic conditions, and degraded water quality. Water quality guidelines have been created that recommend that long-term chloride concentration not exceed 120 mg/L. This paper examined how changes in land use through urban development impact water salinity over time.
+This paper examined how urbanization has affected the salinity of watersheds in the Halifax region. The lakes face an increased risk of salinization as road salt applied in urban areas during the wintertime to improve road safety has been demonstrated to increase chloride concentrations in nearby water bodies. Increased salinity occurs when chloride contaminates the water through runoff. This can create toxic conditions that negatively impact freshwater aquatic organisms, prolonged anoxic conditions, and degraded water quality. Water Quality Guidelines have been created by the Canadian Council of Ministers of the Environment that recommend that long-term chloride concentration not exceed 120 mg/L. This paper examined how changes in land use through urban development impact water salinity over time.
 
 
 ## Methods
@@ -22,16 +22,18 @@ The researchers examined 9 lakes in the Halifax region over a period of 35 years
 
 ## Results
 
-Chloride concentration and urban development had a positive moderate linear relationship. The cessation of urban development correlated with a stabilization of chloride levels, however they were still increased from the pre-development period. Chloride concentration also followed a seasonal pattern, with a high in April at the end of the salt application season and a low in the fall.
+Chloride concentration and urban development had a positive moderate linear relationship as demonstrated in Figure 1. The cessation of urban development correlated with a stabilization of chloride levels, however they were still increased from the pre-development period. Chloride concentration also followed a seasonal pattern, with a high in April at the end of the salt application season and a low in the fall.
 
 ```{r urban development, echo=FALSE}
-plot (x = 0:100, y = 0:200, xlab = "Percent Developed (%)", ylab = "Chloride (mg/L)")
+x <- seq(from = 0, to = 100, by = 25)
+y <- seq(from = 0, to = 200, by = 50)
+plot (x, y, xlab = "Percent Developed (%)", ylab = "Chloride (mg/L)")
 ```
 
 
 ## Conclusion
 
-Road salt surface runoff was determined to pose a significant risk to urban lakes. 
+Urban development was determined to pose a significant risk to urban lakes through increased water salinization. Samples from these urban lakes were regularly exceeding the Water Quality Guidelines of 120 mg/L, potentially posing risks to aquatic freshwater organisms.
 
 
 #### Citation
