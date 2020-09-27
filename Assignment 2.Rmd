@@ -12,8 +12,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
-This paper examined how urbanization has affected the salinity of watersheds in the Halifax region. The lakes face an increased risk of salinization as road salt applied in urban areas during the wintertime to improve road safety has been demonstrated to increase chloride concentrations in nearby water bodies. Increased salinity occurs when chloride contaminates the water through runoff. This can create toxic conditions that negatively impact freshwater aquatic organisms, prolonged anoxic conditions, and degraded water quality.
+This paper examined how urbanization has affected the salinity of watersheds in the Halifax region. The lakes face an increased risk of salinization as road salt applied in urban areas during the wintertime to improve road safety has been demonstrated to increase chloride concentrations in nearby water bodies. Increased salinity occurs when chloride contaminates the water through runoff. This can create toxic conditions that negatively impact freshwater aquatic organisms, prolonged anoxic conditions, and degraded water quality. Water quality guidelines have been created that recommend that long-term chloride concentration not exceed 120 mg/L. This paper examined how changes in land use through urban development impact water salinity over time.
 
+
+## Methods
+
+The researchers examined 9 lakes in the Halifax region over a period of 35 years to quantify how urban development affect water salinity. Urban development, road vectors, and watershed boundaries were analyzed to ArcGIS to examine how each exposure of each lake to road salt changed over time. Water salinity was quantified through water quality sampling that was compiled from various sources.
 
 
 ```{r cars}
