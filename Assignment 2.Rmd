@@ -44,4 +44,4 @@ Scott, R., Goulden, T., Letman, M., Hayward, J. and Jamieson, R., 2019. Long-ter
 
 
 #### Github Link
-https://github.com/skanabar27/assignment2/blob/master/Assignment%202.Rmd
+https://github.com/skanabar27/assignment2
