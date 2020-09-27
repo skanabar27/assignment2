@@ -20,19 +20,18 @@ This paper examined how urbanization has affected the salinity of watersheds in 
 The researchers examined 9 lakes in the Halifax region over a period of 35 years to quantify how urban development affect water salinity. Urban development, road vectors, and watershed boundaries were analyzed to ArcGIS to examine how each exposure of each lake to road salt changed over time. Water salinity was quantified through water quality sampling that was compiled from various sources.
 
 
-```{r cars}
-summary(cars)
+## Results
+
+Chloride concentration and urban development had a positive moderate linear relationship. The cessation of urban development correlated with a stabilization of chloride levels, however they were still increased from the pre-development period. Chloride concentration also followed a seasonal pattern, with a high in April at the end of the salt application season and a low in the fall.
+
+```{r urban development, echo=FALSE}
+plot (x = 0:100, y = 0:200, xlab = "Percent Developed (%)", ylab = "Chloride (mg/L)")
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
+## Conclusion
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Road salt surface runoff was determined to pose a significant risk to urban lakes. 
 
 
 #### Citation
