@@ -12,9 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
-This paper examined how urbanization has affected the salinity of watersheds in the Halifax region.  This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This paper examined how urbanization has affected the salinity of watersheds in the Halifax region. The lakes face an increased risk of salinization as road salt applied in urban areas during the wintertime to improve road safety has been demonstrated to increase chloride concentrations in nearby water bodies. Increased salinity occurs when chloride contaminates the water through runoff. This can create toxic conditions that negatively impact freshwater aquatic organisms, prolonged anoxic conditions, and degraded water quality.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
 
 ```{r cars}
 summary(cars)
